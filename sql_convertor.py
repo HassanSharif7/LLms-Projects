@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure API key for Google Gemini
-Google_API_KEY = "AIzaSyArJnZ62CWYaJ1k0IGw2M37ZBXwoKZ8W3s"
+Google_API_KEY = "Hassan API"
 genai.configure(api_key=Google_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
